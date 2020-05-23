@@ -28,9 +28,10 @@ function buildNav(){
   for (const sect of sections) {
     const listItem = document.createElement('li');
     const listItemInnerText = sect.querySelector('h2').innerText;
-    listItem.innerHTML = `<a href="#section${i}" class="header__link">${listItemInnerText}</a>`;
-    listItem.addEventListener("Click", function () {
-      sect.scrollIntoView("smooth");
+    listItem.innerText = listItemInnerText;
+    listItem.classList.add("header__link");
+    listItem.addEventListener("click", function () {
+      sect.scrollIntoView({behavior: 'smooth'});
     });
   
     myDocFrag.appendChild(listItem);

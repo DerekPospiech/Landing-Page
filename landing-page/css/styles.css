@@ -73,8 +73,8 @@ section {
     justify-content: space-evenly;
 }
 
-a.header__link{
-    text-decoration: none;
+.header__link:hover{
+    cursor: pointer;
 }
 
 .navbar__menu .menu__link {
@@ -93,7 +93,7 @@ a.header__link{
 }
 
 .your-active-section{
-    background: whitesmoke;
+    background: rgba(255, 255, 255, 0.187);
 }
 
 /* Header Styles */
