@@ -1,12 +1,11 @@
 #Landing Page
-------------
 
-##Project Overview
+Project Overview
 ------------
 
 The goal of this Udacity project was to take the starter code and create comfort using JavaScript to manipulate the DOM by dynamically creating content.
 
-##Project Main Challenges
+Project Main Challenges
 ------------
 
 * Dynamically create a navigation menu based on the sections of the page.
